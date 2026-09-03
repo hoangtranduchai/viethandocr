@@ -1,0 +1,4 @@
+# Development, Linting & Testing Tools
+pytest>=8.0.0
+pytest-benchmark>=4.0.0
+ruff>=0.4.0
