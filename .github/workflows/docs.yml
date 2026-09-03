@@ -1,0 +1,29 @@
+name: Documentation Check
+
+on:
+  push:
+    paths:
+      - 'docs/**'
+      - 'README.md'
+      - 'CONTRIBUTING.md'
+  pull_request:
+    paths:
+      - 'docs/**'
+      - 'README.md'
+      - 'CONTRIBUTING.md'
+
+jobs:
+  check-docs:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Verify Documentation Files Exist
+      run: |
+        test -f README.md || exit 1
+        test -f CONTRIBUTING.md || exit 1
+        test -f docs/architecture/DIP_Architecture.md || exit 1
+        test -f docs/architecture/DIP_Pipeline.md || exit 1
+        test -f docs/theory/DIP_Ch01_Sec1.1_Digital_Image_Fundamentals.md || exit 1
+        echo "All critical documentation files verified successfully."
