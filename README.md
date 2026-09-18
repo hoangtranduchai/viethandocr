@@ -1,1 +1,1 @@
-# Real-Time Kanji Tutor
+# VietHandOCR
