@@ -29,11 +29,12 @@ Built to Kaggle Grandmaster standards:
 - **Metrics**: Evaluated strictly using Character Error Rate (CER), Word Error Rate (WER), Exact Match Accuracy, and BLEU scores.
 
 ## 📁 Repository Structure
-The project is decoupled into 4 modular, memory-efficient notebooks:
+The project is decoupled into 5 modular, memory-efficient notebooks:
 - `01_Data_Preparation_and_EDA.ipynb`: Data ingestion, memory downcasting, and writer-independent splitting.
-- `02_Digital_Image_Processing.ipynb`: The standalone DIP preprocessing pipeline.
-- `03_VietOCR_Training.ipynb`: Model instantiation, W&B tracking, and the main PyTorch training loop.
-- `04_Evaluation_and_Inference.ipynb`: Test set evaluation (CER/WER) and ONNX export.
+- `02_Baseline_Evaluation.ipynb`: Zero-shot baseline evaluation of pre-trained model on raw data.
+- `03_Digital_Image_Processing.ipynb`: The standalone DIP preprocessing pipeline.
+- `04_VietOCR_Training.ipynb`: Model instantiation, W&B tracking, and the main PyTorch training loop.
+- `05_Evaluation_and_Inference.ipynb`: Test set evaluation of fine-tuned model (CER/WER) and ONNX export.
 
 ## 📄 Research Paper
 The culmination of this pipeline is documented in `VietHandOCR_Research_Paper.md`, drafted in standard two-column IEEE format, detailing the hybridization of classical computer vision with modern Transformers for tonal languages.

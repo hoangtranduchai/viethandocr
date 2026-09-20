@@ -15,9 +15,10 @@ This project relies on a Kaggle Notebook environment rather than local CLI scrip
 - **Setup Dependencies**: The environment assumes standard Kaggle packages. Install project-specific dependencies directly within the notebook cells using: `pip install -q vietocr wandb onnx`
 - **Execution Pipeline**: Developers should upload the project notebooks to Kaggle and execute them sequentially by clicking "Run All":
   1. Run `01_Data_Preparation_and_EDA.ipynb`
-  2. Run `02_Digital_Image_Processing.ipynb` (DIP Preprocessing)
-  3. Run `03_VietOCR_Training.ipynb` (Training loop with W&B tracking)
-  4. Run `04_Evaluation_and_Inference.ipynb` (Evaluation and ONNX export)
+  2. Run `02_Baseline_Evaluation.ipynb` (Zero-shot baseline)
+  3. Run `03_Digital_Image_Processing.ipynb` (DIP Preprocessing)
+  4. Run `04_VietOCR_Training.ipynb` (Training loop with W&B tracking)
+  5. Run `05_Evaluation_and_Inference.ipynb` (Evaluation and ONNX export)
 
 ## 4. Core Logic Summary
 The pipeline strictly enforces a **Writer-Independent split** on training data to prevent leakage. Raw images then pass through a deterministic **DIP Pipeline** (illumination correction, binarization, skew correction, and horizontal projection profiles) to normalize the input manifold. These standardized images are fed into a fine-tuned **ResNet50 + Transformer** architecture (via VietOCR). The final outputs, alongside rigorous evaluation metrics, are documented in an **IEEE Paper generation** process.
