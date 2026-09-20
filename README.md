@@ -5,7 +5,7 @@ VietHandOCR is an end-to-end deep learning pipeline designed for robust Vietname
 ## 🚀 Core Architecture & Logic
 
 ### 1. Data Ingestion & Splitting
-- **Dataset**: Built upon the [UIT-HWDB](https://data.mendeley.com/datasets/9g9w5j9fxd/1) dataset, supporting Word, Line, and Paragraph level annotations.
+- **Dataset**: Built upon the [UIT-HWDB](https://github.com/nghiangh/UIT-HWDB-dataset) dataset, supporting Word, Line, and Paragraph level annotations.
 - **Data Integrity**: The predefined test set is completely isolated and kept as-is.
 - **Writer-Independent Split**: To strictly prevent data leakage and evaluate true generalization, a **90% Train / 10% Validation** split is applied exclusively by grouping writer IDs, ensuring the model evaluates on unseen handwriting styles.
 
