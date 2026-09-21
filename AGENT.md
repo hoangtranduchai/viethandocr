@@ -30,7 +30,7 @@ The pipeline strictly enforces a **Writer-Independent split** on training data t
 - Do not change the core ResNet50+Transformer architecture without explicit approval.
 - Paragraph segmentation must use traditional DIP (Projection Profiles), not deep learning.
 - Code must adhere to Kaggle resource limits (Dual T4, memory management via `gc.collect()`).
-- **Branch Management**: Before adding any features or fix bugs, always work on a new git branch. Never commit directly on main. Bug branches must follow naming convention bug/[des], feature branches follow naming convention feature/[desc]
+- **Branch Management**: Before adding any features or fixing bugs, always work on a new git branch. Never commit directly on main. Bug branches must follow naming convention `bug/[desc]`, feature branches follow naming convention `feature/[desc]`
 
 ## 6. Additional Documentation
 For deep technical details, refer to the progressive disclosure documentation located in the `.agent/docs/` directory:
