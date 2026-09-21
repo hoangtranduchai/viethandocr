@@ -1,12 +1,17 @@
-# Byte-compiled / optimized / DLL files
+# Datasets
+VietHandOCR_Datasets/
+
+# Large files / Documents
+*.pdf
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
-
-# C extensions
 *.so
-
-# Distribution / packaging
 .Python
 build/
 develop-eggs/
@@ -26,30 +31,12 @@ share/python-wheels/
 *.egg
 MANIFEST
 
-# Environments
-.env
-.venv
-env/
+# Virtual environments
 venv/
-ENV/
-env.bak/
-venv.bak/
+.venv/
+env/
+.env/
 
 # IDEs
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# Testing and coverage
-.pytest_cache/
-.coverage
-htmlcov/
-.tox/
-.nox/
-.ruff_cache/
-.benchmarks/
-
-# OS specific
-.DS_Store
-Thumbs.db
