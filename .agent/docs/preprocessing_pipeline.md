@@ -28,4 +28,4 @@ The pipeline avoids deep-learning based segmentation (e.g., CRAFT) in favor of c
    - **Logic**: By projecting binary pixel intensities horizontally, text lines appear as peaks and line spacing as valleys. A heuristic threshold is applied to these valleys to crop paragraph images into single lines.
 
 ## 3. Implementation Location
-The complete pipeline is implemented and executed within `02_Digital_Image_Processing.ipynb`. It includes a unified function that runs the sequence above, and a batch processing loop that reads the raw `.txt` annotations, processes every image, saves the standardized images to a `Processed_Datasets/` directory, and outputs updated annotation files (e.g., `processed_train.txt`) for training.
+The complete pipeline is implemented and executed within `03_Digital_Image_Processing.ipynb`. It includes a unified function that runs the sequence above, and a batch processing loop that reads the raw `.txt` annotations, processes every image, saves the standardized images to a `Processed_Datasets/` directory, and outputs updated annotation files (e.g., `processed_train.txt`) for training.
