@@ -37,4 +37,4 @@ The project is decoupled into 5 modular, memory-efficient notebooks:
 - `05_Evaluation_and_Inference.ipynb`: Test set evaluation of fine-tuned model (CER/WER) and ONNX export.
 
 ## 📄 Research Paper
-The culmination of this pipeline is documented in `VietHandOCR_Research_Paper.md`, drafted in standard two-column IEEE format, detailing the hybridization of classical computer vision with modern Transformers for tonal languages.
+The culmination of this pipeline is documented in `VietHandOCR_Research_Paper.md`, an IEEE-structured Markdown draft detailing the hybridization of classical computer vision with modern Transformers for tonal languages.
