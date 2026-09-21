@@ -17,7 +17,7 @@ Before deep feature extraction, images are standardized using foundational techn
 - **Paragraph Segmentation**: Computationally efficient Horizontal Projection Profiles to segment dense paragraphs into single text lines without heavy deep learning overhead.
 
 ### 3. Deep Learning Model (VietOCR)
-- **Architecture**: Employs the `vgg_transformer` architecture from the [VietOCR](https://github.com/pbcquoc/vietocr) repository, leveraging a deep **ResNet50** backbone for spatial feature extraction and a **Transformer** sequence decoder for mapping complex Vietnamese diacritics.
+- **Architecture**: Employs the `resnet_transformer` architecture from the [VietOCR](https://github.com/pbcquoc/vietocr) repository, leveraging a deep **ResNet50** backbone for spatial feature extraction and a **Transformer** sequence decoder for mapping complex Vietnamese diacritics.
 - **Fine-Tuning**: Initiated with pre-trained weights to massively accelerate convergence.
 - **Environment**: Optimized for Kaggle Cloud environments utilizing Dual NVIDIA T4 GPUs via Mixed Precision (FP16) training.
 
