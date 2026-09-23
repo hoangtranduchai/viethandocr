@@ -47,7 +47,7 @@ The preprocessed line images are passed to our sequence-to-sequence model:
 - **Encoder (ResNet50)**: Replaces the standard VGG19. ResNet50 provides deeper feature extraction capabilities.
 - **Decoder (Transformer)**: Replaces the LSTM sequence model. The multi-head attention mechanism allows the model to attend to distinct visual features of base characters and diacritics simultaneously.
 
-We optimize training time by loading pre-trained `vgg_transformer` weights from the VietOCR repository, treating the process as a domain-adaptation fine-tuning task.
+We optimize training time by loading pre-trained `resnet_transformer` weights from the VietOCR repository, treating the process as a domain-adaptation fine-tuning task.
 
 ### D. MLOps & Advanced Deployment
 To elevate the project to production and competitive standards, we integrate strict MLOps principles:
