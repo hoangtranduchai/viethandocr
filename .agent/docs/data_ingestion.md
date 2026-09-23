@@ -21,4 +21,8 @@ Given the constraints of standard Kaggle environments (e.g., 16GB CPU RAM), aggr
 - Garbage collection (`gc.collect()`) is used routinely to clear unreferenced variables.
 
 ## 4. Implementation Location
-This logic is fully implemented and executed within `01_Data_Preparation_and_EDA.ipynb`. The final splits are saved as `.txt` annotation files (`train.txt`, `val.txt`, `test.txt`) formatted as `image_path\\tlabel` to maintain native compatibility with the VietOCR training pipeline.
+This logic is fully implemented and executed within `01_Data_Preparation_and_EDA.ipynb`. The final splits are saved as **12 highly granular `.txt` annotation files** formatted as `image_path	label` for native VietOCR compatibility. Specifically:
+- **Combined Level (All Data)**: `train_all.txt`, `val_all.txt`, `test_all.txt`
+- **Word Level**: `train_word.txt`, `val_word.txt`, `test_word.txt`
+- **Line Level**: `train_line.txt`, `val_line.txt`, `test_line.txt`
+- **Paragraph Level**: `train_paragraph.txt`, `val_paragraph.txt`, `test_paragraph.txt`

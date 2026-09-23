@@ -24,8 +24,8 @@ The project leverages the **VietOCR** repository's sequence-to-sequence implemen
 - **ONNX Export**: Post-training, the model weights are exported to the ONNX format to slash inference latency and prepare for potential TensorRT / INT8 quantization.
 
 
-## 4. Baseline Evaluation Strategy
+## 5. Baseline Evaluation Strategy
 Before training begins, a zero-shot baseline is computed using the pre-trained `resnet_transformer` weights. This evaluation is strictly executed on all granular levels (all, word, line, paragraph) of BOTH the `test_data` split (for final reporting) and the `val_data` split (to establish an Epoch 0 anchor). The `train_data` split is excluded from baseline evaluation to save compute.
 
-## 5. Implementation Location
+## 6. Implementation Location
 Model instantiation, W&B tracking, and the primary training loop are located in `03_VietOCR_Training.ipynb`. ONNX export and inference optimization are handled in `04_Evaluation_and_Inference.ipynb`.
