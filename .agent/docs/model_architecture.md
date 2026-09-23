@@ -4,7 +4,7 @@ This document outlines the core deep learning architecture and MLOps strategies 
 
 ## 1. Core Architecture (VietOCR)
 The project leverages the **VietOCR** repository's sequence-to-sequence implementation.
-- **Base Architecture**: `vgg_transformer` (Modified to use ResNet50).
+- **Base Architecture**: `resnet_transformer` (ResNet50 encoder with Transformer decoder).
 - **Encoder**: A deep **ResNet50** backbone replaces standard VGG architectures to improve spatial feature extraction and mitigate vanishing gradients via residual connections.
 - **Decoder**: A **Transformer** module replaces legacy RNNs/LSTMs. Multi-head self-attention allows the model to globally context-match base characters and complex stacked diacritics simultaneously, which is critical for tonal languages like Vietnamese.
 
@@ -22,6 +22,10 @@ The project leverages the **VietOCR** repository's sequence-to-sequence implemen
 - **Weights & Biases (W&B)**: Used exclusively for tracking hyperparameter configurations, loss curves, and system metrics during the training loop.
 - **OOF Predictions**: The training script automatically generates and saves Out-of-Fold (OOF) predictions on the validation set for future stacking and meta-ensembling strategies.
 - **ONNX Export**: Post-training, the model weights are exported to the ONNX format to slash inference latency and prepare for potential TensorRT / INT8 quantization.
+
+
+## 4. Baseline Evaluation Strategy
+Before training begins, a zero-shot baseline is computed using the pre-trained `resnet_transformer` weights. This evaluation is strictly executed on all granular levels (all, word, line, paragraph) of BOTH the `test_data` split (for final reporting) and the `val_data` split (to establish an Epoch 0 anchor). The `train_data` split is excluded from baseline evaluation to save compute.
 
 ## 5. Implementation Location
 Model instantiation, W&B tracking, and the primary training loop are located in `03_VietOCR_Training.ipynb`. ONNX export and inference optimization are handled in `04_Evaluation_and_Inference.ipynb`.
