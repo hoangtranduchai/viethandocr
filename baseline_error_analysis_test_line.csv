@@ -1,0 +1,202 @@
+image_path,ground_truth,prediction,is_exact_match
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/1.jpg,Thứ trưởng Bộ Tài nguyên & môi trường Đặng Hùng Võ tâm đắc với,Nhi trưởng Bộ tài nguyên và mội trúng Đồng Hàng Về tâm đại với,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/2.jpg,"cơ chế "" khuyến khích nhà đầu tư thỏa thuận với người sử dụng đất để nhận","có chế "" khuyên khích nhà đâu hệ thoa thuận viên người sử đôi đề nhậ..",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/3.jpg,"chuyển nhượng hoặc thuê quyền sử dụng đất, nhận góp vốn bằng quyền sử","chuyển nhường hoào thái quyền sai chung đài, nhân gáp văn bằng quyền 5.?",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/4.jpg,"dụng đất... "" Nhưng tại hội nghị hôm qua, tiếng nói từ các sở tài nguyên","chung otới . "" Những tại hội nghị hôm qua, tiếng móc hì cai số ? tàu nguyên",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/5.jpg,"& môi trường lại đều đồng thanh "" loại bỏ "" điều khoản này ra khỏi dự thảo.","và môi trường lạc thêu hành "" loại bộ"""" điểm khoái này ra ldài chủ tháo.",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/6.jpg,Giám đốc Sở Tài nguyên & môi trường Hải Phòng Chu Minh Tuấn cho,giao tôi Sở tàu nguyên vì mội mương Hải Phòng Chu Minh Thần chi,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/7.jpg,"biết thành phố cảng từng áp dụng cơ chế "" thỏa thuận "" trong một số",kết thanh phố cang chủng ap chng có chế nhưa phuân ? trong một số,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/8.jpg,"rất ít trường hợp, vậy mà đã gây phản ứng theo kiểu dây chuyền khá",rất ít trưởng hopp vày mà đã gây phân của y Theo kiển clây clay cầu khe,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/9.jpg,"mạnh : anh này nhận tiền rồi quay lại đòi nữa, anh kia thỏa thuận","mạnh canh này nhân mà rồi quay lại đời nước, anh kin thoa thuá",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/10.jpg,xong quay ra đòi thỏa thuận lại...,xong quay ra đôi thoa thuận lại,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/11.jpg,"Chưa kể để doanh nghiệp và người dân "" nói chuyện "" với nhau như","chưa kế tế doanh nghiệp và người châu "" nơi chuyết "" với nhau nL.",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/12.jpg,"vậy, quyền của cơ quan quản lý nhà nước sẽ mất đi. "" Tôi cũng có suy","vậy, quyền của cd quan quân lý nhà nước số mài đi. "" Tân củng có ng",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/13.jpg,"nghĩ như đồng chí "" Bỏ được qui định này đi thì tốt. Cùng một lúc chúng",nghĩ như đông chí ? Bỏ trước qua nhị này át thì lời. Cau g một lúc chúng,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/14.jpg,ta thực hiện hai cơ chế (vừa Nhà nước thực hiện thu hồi đất như cách,h thực hiến hai cả chế (vdà Nhà nưới Thực hiện thu hội đất nhu' cách,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/15.jpg,"làm lâu nay, vừa khuyến khích nhà đầu tư thỏa thuận với người sử dụng","lên nay, vào khyến khích nhà đầu hị thân Huan Wk người sử dụng",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/16.jpg,"đất) thì phức tạp - ông Trịnh Kiên Đĩnh, phó giám đốc Sở Tài","Aãi ) Hai phác tạp - ây Trinh Kiên Đình, phú gian Hộc Sở Tà",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/17.jpg,"nguyên - môi trường và nhà đất Hà Nội, lên tiếng.","Nguyên - mới thường và nhà đái Hà Với, lên phúng",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/18.jpg,"Bảo vệ lập trường của cơ quan soạn thảo, Thứ trưởng Đặng Hùng Võ khẳng định","Đảo vi lập Trưởng của Có quan 30ạn thảo, Thế truỗng Động thùng Võ không tính",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/19.jpg,""" trường hợp nhà đầu tư có nhu cầu thỏa thuận với người đang sử dụng đất, chúng","""- hưởng hạp nhĩ đầu tư có nhu cầu thoả thuận vối người đang sở dụng đít"", chúng",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/20.jpg,"ta cần khuyến khích vì Nhà nước chẳng mất cái gì cả "". Ông Võ "" kêu gọi "" :","ta cần khuyến khích vì N là nước chúng mất cái gĩ cả ""... ông võ "" kêu gọc""""",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/21.jpg,"chúng ta cần thay đổi trong quan điểm, không nên để hệ thống hành chính","chúng tra cần thay đổi trưng quan điểm, không nên đã hệ thông hành chính",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/22.jpg,"ôm về mình nhiều quá, bởi ôm càng nhiều thì sai càng nhiều. Bộ trưởng Mai","Ôm về mành nhiều quá, hồi ôn cùng nhiều thì sai càng nhiên. Bộ trung Mai",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/23.jpg,Ái Trực tiếp lời : Các nước đều áp dụng cơ chế tự thỏa thuận khi thu hồi,Aĩ Trực tiếp lới - Các nước đôi áp đạng có chủ tự thoải thuận khi tha kể,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/24.jpg,đất.,đất,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/25.jpg,"Ngay cả trường hợp ta không qui định, người dân và doanh nghiệp vẫn thực hiện","Ngay cả trưởng hợp tr. không qui định, người dân và doanh ngập vẫn thự hiện",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/26.jpg,"cơ chế này. "" Nếu cứ dùng quyền lực hành chính nhà nước với mô hình khuôn","""chế này. """"Nến cứ dùng quyền lúc hành chính nhà nước với mỗ hình khô.""",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/27.jpg,"cứng, người dân sẽ kêu "" - ông Trực nói. Chuyện "" bố "" - "" con "". Phó giám đốc","Công... người dân sẽ kêu "" - ông Tực nói Chuyên "" lối"".. "" con"". Phó Giám đối",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/28.jpg,Sở Tài nguyên - môi trường & nhà đất Hà Nội Trịnh Kiên Đĩnh đề nghị : thẩm,Số Tài nguyên - một trường á như đốt Hà Một Trạnh Kiên Đình đề nghệ - Hàm,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/29.jpg,"quyền thu hồi đất, giao đất phải được thể hiện theo tinh thần "" ông bố bao trùm","quyền thu là đất, pha đốt phải được thì hiệu thao tình thân "" ông bố hao tràn",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/30.jpg,"ông con "". Theo đó, UBND cấp tỉnh, thành phố được quyền thu hồi, giao đất","Ông còn "", Thần đó, UBNP cấp tỉnh, thành phố được quyền thu lối, giao đất",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/31.jpg,"thuộc thẩm quyền của UBND cấp quận, huyện (thay vì qui định như hiện nay,","theo thảm quyền của VBNO cấp giân, huyện (thay và qui định như liện rang)",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/32.jpg,""" ông bố "" muốn làm điều này phải thông báo cho "" ông con "" thực hiện, vừa nhiêu","""ông lố """"muốn làm điều vày phải thông báo cho """"ông con thực lượn, và nhân",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/33.jpg,khê vừa không thể hiện hướng đi cải cách thủ tục hành chính).,Khô văn không thể lựa hướng đi cử cách thủ tục hành chính).,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/34.jpg,"Lập tức Thứ trưởng Đặng Hùng Võ phản ứng : "" ông bố "" có quyền của "" ông bố "",","Lập tác Thí trưởng Động không Võ phản cùng. """"ông lễ"""" có quyền của """"Sông lớ"""",",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/35.jpg,""" ông con "" có quyền của "" ông con "". Luật không cho phép "" ông bố "" làm thay "" ông","""Sig con"""" có quyền của """"Sây con"""" Luật không cho pháp """"ông lỗ"""" làm thong """"ông""",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/36.jpg,"con "". Trường hợp nào làm thay là phạm luật, chỉ có điều hiện nay các "" ông","Con ? Thường hợp nào lân thay là phạm luật, chỉ có điều hập vay các ""................. viên thường hập viện chiện tran thương thư",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/250/37.jpg,"con "" không dám kêu mà thôi!",con ? không đán kêu mà thôi 1,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/1.jpg,Chương trình hành động thực hiện Nghị quyết trung ương 9 - khóa,Chương trình hành động thực hôn Nghi quyết trung ương J- khóa,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/2.jpg,IX của Đảng bộ TP.HCM Về xây dựng Đảng : tiếp tục chỉ đạo mạnh,"1% của Đảngy bộ TP.Hort Về xây dựng đảng, tiếp tục chỉ đạo mạnh",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/3.jpg,"mẽ, có hiệu quả cuộc vận động xây dựng chỉnh đốn Đảng theo tinh","mẽ, có hiệu quả cuộc vận động xây dưng chính đến đảng chuo tính",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/4.jpg,"thần nghị quyết trung ương 6 (lần 2). Theo đó, tiếp tục thực hiện việc","đoàn nghị quyết trung vương 6 làm xã) Thuo đó, tiếp tạo thực hành vic",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/5.jpg,kê khai nhà đất và cơ sở sản xuất kinh doanh của cán bộ - công chức;,kê khai nhào đất và có át văn mút đình doanh của các bộ. công cho;,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/6.jpg,"tăng cường thanh kiểm tra những nơi có dấu hiệu vi phạm, đặc biệt","tăng cường thanh triểm tra những, mới có dân hảm vi phạm, đầu tái",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/7.jpg,trong lĩnh vực đất đai và các công trình trọng điểm.,trong lính vực đất đại và cad công trình trọng điểm.,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/8.jpg,Xử lý nghiêm minh theo pháp luật và kỷ luật của Đảng những người,Xã ký nghiêmV minh đho pháp luật và hị hiệt của đảng những ngừa,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/9.jpg,có hành vi sai trái và những người bao che. Thực hiện tốt các quy định,có hành và hai tráo và những người bao cha. Thực hiệu tốt các quy đình,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/10.jpg,"đối với cán bộ lãnh đạo, quản lý để xảy ra tham nhũng, tiêu cực ở cơ","đói với văn bị lãnh đạo, quân lý để xáy ra cham những, tiêu các ô có",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/11.jpg,"quan, đơn vị. Kiện toàn và tăng cường sức chiến đấu của tổ chức","quan, đơn và Kiến toàn và tầng sứng, súc chân đầu của tổ chức",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/12.jpg,cơ sở Đảng. Tiếp tục đổi mới và nâng cao công tác cán bộ. Tiếp tục,"có cố đóng, Tiếp tục đến một và màng cao cùng thể canh lộ. Tấp tại.",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/13.jpg,đổi mới phương thức lãnh đạo của cấp ủy Đảng theo phương châm,đầu mới phường chức lãnh đạo của cấp úp đóng chua phường) châm,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/14.jpg,hướng mạnh về cơ sở.,hưchạy manh về cố sở.,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/15.jpg,"Về cải cách hành chính : Tập trung chấn chỉnh mạnh hơn nữa kỷ cương,",Về cái cách hành chính - Tập trung chân chính mash hơn nủa chị cương;,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/16.jpg,"kỷ luật trong bộ máy hành chính, nâng cao tinh thần trách nhiệm và","kỳ luật trong bộ máng hành chính, nàng cao tỉnh chân trách nhiêm về",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/17.jpg,"ý thức kỷ luật của CB - CC, nhất là trên lĩnh vực nhà đất, đầu tư,","ý thứa hủy luật của CO -CC, nhất là trên kính với nhà đất, đầu to.",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/18.jpg,"kinh doanh, trật tự xây dựng và giải quyết khiếu nại, tố cáo.","hình cloanh, trất tại cây dựng/ và giái quyết khác nại, tế các",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/19.jpg,Xây dựng hoàn thiện hệ thống các qui trình thủ tục hành chính.,Vùng đượng hoàn thuận hệ chống các quy trình thủ tục hành chính,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/20.jpg,"Kiên quyết chấn chỉnh bộ máy hành chính các cấp, nhanh chóng",Kiên quy ở châu chính bộ máy hành chính các cấp. nhanh chúng,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/21.jpg,"khắc phục tình trạng quan liêu, cửa quyền, hách dịch.","khác phục tỉnh trong quan hâu, các quyền, hách dích.",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/22.jpg,Xây dựng và phát triển đội ngũ CB - CC có chất lượng chuyên môn,"Xây dương và phát trần tin ngữ có - CC chít lương, chuyên môn",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/23.jpg,"cao, có phẩm chất, đạo đức. Kiểm tra, xử lý kiên quyết các vụ","cao, có phẩm chất, đạo đức kiểm tra, với lý kiên quyết cai sụ",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/24.jpg,"tham nhũng, lãng phí, làm thất thoát tài sản nhà nước... Về kinh","cham những, lắng, phú, làm chất chách tài sản nhà núc - Vì hình",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/25.jpg,"tế : Tập trung mọi nỗ lực nhằm tháo gỡ sản xuất kinh doanh,","tà. Tập trung mọi nó lực nhằm cháo gỗ sán xuất hình douchi,",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/26.jpg,đưa tốc độ tăng trưởng GDP trên địa bàn TP đạt 12% năm,"điều tối độ tầng trường 00P trên đưa bùn, P đạt kết năm",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/27.jpg,"2004 và trên 12% năm 2005. Phát triển nhanh các ngành dịch vụ,","2004 của trên lược năm 1005, Phát trúv nhanh các ngành díchom",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/28.jpg,tái cấu trúc các ngành công nghiệp.,tái các trúc các ngành công nghép.,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/29.jpg,Tiếp tục nhân rộng các mô hình huy động vốn đầu tư. Tập trung khai,Tiếp tục nhân ông) cai mùa hình huy động văn đầu tai. Tập trung khai,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/30.jpg,thác các nguồn vốn cho ngân sách. Tổng kết quá trình cổ phần hóa,chác cai nguồn với cho ngày sách. Tổng kết quá trình cả phần hại,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/31.jpg,doanh nghiệp nhà nước và việc tổ chức sắp xếp lại doanh nghiệp nhà,"doanh nghịp nhà núc và vục tổ chúc cấp xếp lại doanh, nghập nha",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/32.jpg,nước. Triển khai quyết định của TP về một số chính sách ưu đãi,mước . Tránh khai quyết định của TP về một số chính cách vào đi,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/33.jpg,đối với các dự án có vốn đầu tư nước ngoài. Rà soát lại chương,điển vức các dự án có vấn thầu tứ nước người. Hà các Lai chương,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/34.jpg,trình hội nhập kinh tế của TP. Về văn hóa - xã hội : đẩy mạnh,"trình học nhày hình tế của """"P. Về văn hoá. vấn hiệu . đảng manh",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/35.jpg,"xã hội hóa, phát triển xã hội học tập, ưu tiên đầu tư ngân","với hiện hóa, phát tráo vấn học hạ tập, của tâm đầu tri ngân",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/36.jpg,sách cho giáo dục - đào tạo.,tách cho giáo dục - đào tạo,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/37.jpg,Nâng cao năng lực quản lý nhà nước trên các lĩnh vực kinh doanh,Nâmay cao nắng hạ quân lý nhà nước trên các kinh vực bình donh,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/38.jpg,"dịch vụ văn hóa; khắc phục những sơ hở, tiêu cực trong quản lý","dịch vụ vẫn húc, khác phục những, về hờ, trên cực trong quân lý",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/39.jpg,và hoạt động văn hóa. Tiếp tục tập trung nguồn lực cho chương,và hoạt động vẫn hoá. Tiếp tục tập trung nguồn lợc cho chương,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/251/40.jpg,trình 3 giảm...,tanh 3 giám...,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/1.jpg,Chương trình hành động thực hiện Nghị quyết trung ương 9 - khóa IX của Đảng bộ,Chương trình hình đông thực hiện nghị quyết trung công 3 - khá rx của đông la,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/2.jpg,"TP.HCM Về xây dựng Đảng : tiếp tục chỉ đạo mạnh mẽ, có hiệu quả cuộc vận động xây","quan và này dựng trăng, tiếp trọc chỉ đạo mạnh và, có hiện phủ các vận stayoty",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/3.jpg,"dựng chỉnh đốn Đảng theo tinh thần nghị quyết trung ương 6 (lần 2). Theo đó, tiếp tục","duy chính đến đóng nheo tính thời nghị quyết trong ường 6 (100 -), Theo đó, tippro",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/4.jpg,thực hiện việc kê khai nhà đất và cơ sở sản xuất kinh doanh của cán bộ - công,Đạc hiện và xã khai nhi đối và cơ các sản một kinh danh của cáo kỳ. ông,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/5.jpg,"chức; tăng cường thanh kiểm tra những nơi có dấu hiệu vi phạm, đặc biệt","đức, trường cường thanh, kiểm thu những sản có đến hiệu vì pham, đội là",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/6.jpg,trong lĩnh vực đất đai và các công trình trọng điểm.,trong lĩnh vục đất đại và có công thình trong điểm.,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/7.jpg,Xử lý nghiêm minh theo pháp luật và kỷ luật của Đảng những người có hành,Xứ lý nghiêm minh theo pháp lành và ký luật của long những nguồi có hây,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/8.jpg,vi sai trái và những người bao che. Thực hiện tốt các quy định đối với cán bộ lãnh,ví sai trác và những nguồi - bao cho. Thực hiện đối các gay định đối cáo cần là kia,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/9.jpg,"đạo, quản lý để xảy ra tham nhũng, tiêu cực ở cơ quan, đơn vị. Kiện toàn và","đao , quản lý để xay ra than nhưng, tiêu cực d có quan, đơn cơ kiên trên có",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/10.jpg,tăng cường sức chiến đấu của tổ chức cơ sở Đảng. Tiếp tục đổi mới và nâng,trong cường sác chiết đất của tổ chức có cả những. Tiếp tại để múc và này,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/11.jpg,cao công tác cán bộ. Tiếp tục đổi mới phương thức lãnh đạo của cấp ủy,cao công đáo của bô - Tiếp tục đời múi phương đối Lớt đạo của cấp áy,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/12.jpg,Đảng theo phương châm hướng mạnh về cơ sở.,Đang theo phường cham hướng mạm về có cổ,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/13.jpg,"Về cải cách hành chính : Tập trung chấn chỉnh mạnh hơn nữa kỷ cương, kỷ luật trong","về các cách hành chính - Tập trung chấn choi mạnh hơn nữa lý cường, bý hiệu trong",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/14.jpg,"bộ máy hành chính, nâng cao tinh thần trách nhiệm và ý thức kỷ luật của CB - CC,","bà máy chân chính, này cao tinh thân trách nhiêm và ý thể tỷ diệt của Cba",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/15.jpg,"nhất là trên lĩnh vực nhà đất, đầu tư, kinh doanh, trật tự xây dựng và","nhải là trên km. vào nhà đài, đầu ti, enh doanh, trật từ xây dưng cũ",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/16.jpg,"giải quyết khiếu nại, tố cáo. Xây dựng hoàn thiện hệ thống các qui trình","giái quyết thiếu mại, tổ cáo. xây dụng hoàn thên hệ đảy các vạy triệt",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/17.jpg,"thủ tục hành chính. Kiên quyết chấn chỉnh bộ máy hành chính các cấp,",thủ tục hoàn chính kiên quyền chết chính bị may hơn chính các cấp,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/18.jpg,"nhanh chóng khắc phục tình trạng quan liêu, cửa quyền, hách dịch.","nhau, chúng thái phục tình trong quan làm, của quyền, hành danh",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/19.jpg,"Xây dựng và phát triển đội ngũ CB - CC có chất lượng chuyên môn cao, có phẩm","Xây clung và phát trên đội ngữ cB-ca có chính lường chuyên môn cao, có phẩm",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/20.jpg,"chất, đạo đức. Kiểm tra, xử lý kiên quyết các vụ tham nhũng, lãng phí,","chất, đạo đức kiểm ta, xút lý kiều quyết các và tham những, làng phí",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/21.jpg,làm thất thoát tài sản nhà nước... Về kinh tế : Tập trung mọi nỗ lực,làm thái thành tài sản nhà nước... Về kims tế. tập trung mơi nữ lực,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/22.jpg,"nhằm tháo gỡ sản xuất kinh doanh, đưa tốc độ tăng trưởng GDP trên địa","nhằm thác gở sản ruốt kinh doani, đưa tài đô tăng trưởng GDP trên doa",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/23.jpg,bàn TP đạt 12% năm 2004 và trên 12% năm 2005. Phát triển nhanh,bản TP đạt 122 năm 2004 và trên 127 năm 01005 - Phú triển rhens,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/24.jpg,"các ngành dịch vụ, tái cấu trúc các ngành công nghiệp.","các ngàng dích vu, tác của trẻ các ngôn công nghập",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/25.jpg,Tiếp tục nhân rộng các mô hình huy động vốn đầu tư. Tập trung khai thác,Tiếp tục nhân rằng các mô hình huy đông vối dài tứ Tập trung khai ba.,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/26.jpg,các nguồn vốn cho ngân sách. Tổng kết quá trình cổ phần hóa doanh,các nguồn vốn cho ngàn sánh Tổng khi giá trình ở phải hai cloang,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/27.jpg,nghiệp nhà nước và việc tổ chức sắp xếp lại doanh nghiệp nhà nước.,"nghiệp nhà nước và oiên tổ chức, sắp xếp lai doort nghiệp nhã nước",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/28.jpg,Triển khai quyết định của TP về một số chính sách ưu đãi đối với,Triển khoi quyết chias của TP về một số diệt sách chu dữ đôi các,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/29.jpg,các dự án có vốn đầu tư nước ngoài. Rà soát lại chương,các chữ án có văn đầu tử mưới ngoài. hã sakel lại các chứng,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/30.jpg,trình hội nhập kinh tế của TP. Về văn hóa - xã hội : đẩy mạnh xã,"trong hội nhập king tế cuả TP. về văn hoá - xã hội, đây noớ xã",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/31.jpg,"hội hóa, phát triển xã hội học tập, ưu tiên đầu tư ngân sách","hồi khác, phái triển xã hội họ, tập, ka tiên đầu từ người cách",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/32.jpg,cho giáo dục - đào tạo.,cho giao dực - đảo tạo.,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/33.jpg,Nâng cao năng lực quản lý nhà nước trên các lĩnh vực kinh doanh dịch vụ,Noàng cao năng lức quản lý nhà nước trên các hóa vực biết laml cách vu,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/34.jpg,"văn hóa; khắc phục những sơ hở, tiêu cực trong quản lý và hoạt động","văn hải khắc phục những số hồ , tiên cực trong quản lý và loan đông",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/252/35.jpg,văn hóa. Tiếp tục tập trung nguồn lực cho chương trình 3 giảm...,văn hoà Tiếp tục tập trưng nguồn lực cho chương trưng 3 giám.,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/1.jpg,"Viết tiếp về vụ anh Trương Xuân Đại. Ngay từ khi tờ báo có bài "" Số phận của","Viết tiến về mua anh trường Xuân Đạo Ngay và khi, ở bao ? Số phía của",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/2.jpg,"những người nói lên sự thật "" phát hành, nhiều bạn đọc đã bày tỏ sự chia sẻ,","nhưng người nước len sự thấy Nghai thành, nhen ban đồn đã bày bỏ rai chia sẽ;",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/3.jpg,ủng hộ anh Trương Xuân Đại. Một bạn đọc 67 tuổi ở Q.11 đến gửi tặng anh Trương,ông hà canh Trường Xuân Đại. Một Lon đóc 67 Hoàn ở Q. Miền quả tậng minh Trung,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/4.jpg,"Xuân Đại 150.000 đồng, một cô gái tên Nhung ở Tân Bình gửi tặng 100.000 đ,","Yucân Đưa 150.000 đồng, trai á giá tài Nhưng ở Tàm Biền giả bằng 100 Cool,",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/5.jpg,một thanh niên tên Hà đến gửi 200.000 đ. Sau đó nữa là rất,phi thanh ma còn tân Hai đến quải 200.C000.San (ở nước hà Hay?,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/6.jpg,"nhiều bạn đọc gọi đến bày tỏ sự chia sẻ, ủng hộ.","nhi của bang đài đội đến (bay Là họ chia sẽ , quảng hồ",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/7.jpg,Ban biên tập báo Tuổi Trẻ cũng quyết định gửi tặng nhóm công nhân,"Ban liên tây), bao Tuổi Tuổ cong quyệt, Tránh giả bằng nhan (công nham",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/8.jpg,đã tố cáo tiêu cực ở đường liên cảng A5 10 triệu đồng. Đừng để người dân,đã từ cao hiểm các ở Đường hoàn cong A5 70 tuyên đông Đô Người đồng,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/9.jpg,"đặt cược cho niềm tin! Qua báo chí, bản thân tôi đã được biết về việc tố cáo những","đội cường cho niêm tâng) ana bác chí, ban thân dân, đã hai có với từ cao không",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/10.jpg,"sai phạm của công rình đường liên cảng A5 mấy năm trước đây, nhưng nay","anh pham cươn? công sinh chúng làm công A5 mày năm lưới chủy, nhưng nay",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/11.jpg,mới biết việc làm dũng cảm và tốt đẹp đó đã mang đến bao hệ lụy phiền phức,"máy luci súc loan chong con và bắt Xập đã mang cần bao bổ long giáo - phụ,",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/12.jpg,"cho những người trong cuộc, những người mà theo tôi vô cùng xứng đáng với danh","cho ngoài trong san, nhưng nguồn ma theo làm vỏ cùng xuy ảng vin danh",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/13.jpg,hiệu hiệp sĩ.,biên hiệp sĩ,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/14.jpg,"Thế nhưng những hiệp sĩ ấy giờ ra sao? Người thì lang thang, phiêu bạt, kẻ thì","Thế nhưng nhưng hướng huập sử ông giả ha ono ? Người thì bay thung, phân bạt, hề nhi",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/15.jpg,"vợ bỏ, kẻ thì cày ải trên những con đường đô thị để lượm ve chai, phải tá túc trong","xã hỏ, hồ phủ công nó giảm, con chương đó tới đã dươm va chưa, phủ la tai trong",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/16.jpg,những căn chòi tạm bợ sống qua ngày. Ngẫm sao mà thương thế! Đáng lẽ phải được,"phường cần hài giam bụ gây qua ngày Ngà sao Đơn Thung, thế 1 đảy Lê phá cùng",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/17.jpg,tôn vinh thì trái lại những con người ấy đã bị đẩy xuống đáy cùng của cuộc,"lên vinh thì trơi ba những con, hoàn này thì hì động sinh công đảy, cung con cao á.",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/18.jpg,"sống! Cũng may mà anh Đại đã thắng kiện, đó chắc là một niềm an ủi và","oàng "" cung may pra mình Đm chỉ thông hoàn , để chữ/ là song cao tên""",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/19.jpg,"là một khẳng định để anh và các đồng nghiệp, người thân tin rằng các","Là khôn ỹ được, để pnh mà inh chông nghiệp, người thân lin tây si",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/20.jpg,anh không đơn độc trong việc theo đuổi niềm tin về lẽ phải của mình.,"anh khoảng đơn là) dong vuai the pươi quiềm tiên sĩ là ghải mai mình,",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/21.jpg,"Lại nữa, khi thanh tra đã xác định sai phạm sao không xử lý mà để "" ngâm ""","Lưu mùa, khi thanh, tan đã xai định sai pham kho không sử ký mà để ngọm",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/22.jpg,lâu ngày đến vậy? Tôi không phải là người trong lĩnh vực chuyên môn nhưng,"làm ngày đã này 3 xã không phá ở người truy làm trọc chuyển mài, chúng",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/23.jpg,có thể hình dung công trình đường liên cảng A5 chắc là nhằm phục vụ hoạt động của,"có thủ "" bình đương mông lainh phần bảm củy A S châu nhằm phục von hoang đảng cau..""",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/24.jpg,các nhà đầu tư trong Khu chế xuất Tân Thuận. Vậy thì khi không khắc phục ngay,cai nhà chăm bá tay phụ đi coni têm Thuân. Vuy thì không kết phái ngạy,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/25.jpg,"mà còn để con đường xuống cấp thê thảm, có phải là góp thêm phần","mà còn để con itoàng xuân ý này thì chom, a ghai kh quý kham phân",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/26.jpg,"làm xấu đi môi trường đầu tư của thành phố hay không, và cũng","bài xem/đi trà tước, lần sai cua (Anh phí /huy khoảng, - - máy",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/27.jpg,đồng nghĩa với việc mất đi bao nhiêu cơ hội làm việc và cải thiện cuộc sống,dùy nghĩa và vui mái đi bao nhiêm số hội loàn viêt và cả thân cuộc 1.my,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/28.jpg,của người lao động - đồng bào - hay không?,"cao người lao thông - dong bài - họy không,..",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/29.jpg,"Chúng ta "" hoan nghênh và biểu dương những việc làm tốt của công nhân","Chung (tn. A hơm nghành và huên ? choan, những vei hòa tát con công nhân",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/30.jpg,"xây dựng trong việc thông tin, phản ánh sai phạm của công trình đường","xây dương trong việt không công phá - cách trai pham con "" công hinh đảng",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/31.jpg,"liên cảng A5 "", nhưng chắc là không có hình thức hoan nghênh và biểu",hài công AS ?) phòng chữ là khoảng có hình Thai ham nghược và hoán,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/32.jpg,dương nào thiết thực hơn đối với anh Đại và những đồng nghiệp là xử lý ngay,hoáng thiên phúc hơn cách anh Đơm và nhưng dùng typhap đi xed ky ín gạp,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/33.jpg,những sai phạm (đã rõ mười mươi) và có biện pháp hữu hiệu khắc phục,khuông sai ph.m (dữ có mai trướn) và có biểm phụp biểu biển khác phác,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/34.jpg,những sai phạm đó. Có như vậy niềm tin vào lẽ phải mới được khôi phục,nhưng Nói Làm 16 - có như vòng muốn Gọm cái lê ghá trái để không phá.,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/35.jpg,và người dân sẽ không còn phải đặt cược cho niềm tin của mình.,"và người đàm sẽ không còn phú đã) nước cho sản, lớn sau ? mường",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/36.jpg,Phải là một câu chuyện đàng hoàng! Nhóm công nhân dũng cảm ấy gồm,"Phái là máy của Chuyển hoàng hoàng 1 khoa công nhiền chúng con "" ông (gồm)",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/37.jpg,20 người vậy mà hầu như nay đã lang bạt hết. Chỉ còn anh Đại và bốn,"20 ngoài Vòng mà hàn khí sa ng chỉ lụng bat bắt, Chỉ tom anh Đen vào hản",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/38.jpg,"người khác. Thân phận, cuộc sống của họ là bi đát, và điều mỉa mai cũng","nguồn NHư thàn phải, huộc xâm finh họ kê thi, giả chiêu trú ô mại công",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/39.jpg,"như làm chạnh lòng tôi là có phải họ đã xả thân vì đại nghĩa để rồi gia đình,","nhưn làm chính Luy Là là phủ họ do của Nhân và Chị, nghĩ đi rì gọ thái",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/40.jpg,"vợ con ly tán, thất nghiệp, lâm vào cảnh đời tan nát như thế sao! Vì sao họ","và umbi bán phát nghiệp, lần và cách đải lam rai phụ thị tro/Và tạo b.",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/41.jpg,"đã làm điều đó? Ba năm trôi qua, chắc hẳn đã hàng trăm, ngàn lần","lê làm điều MO5 Bơn năm trà qua, chức 'hầu đị hàng tiêm, ngàn là """,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/42.jpg,"câu hỏi đó tự đến với họ hoặc đến từ người thân, bạn bè đi kèm sự chua","còn hai do lúc đến "" với họ hoại đầu sự người chúng bạn bê 2, hoàng sự chong",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/43.jpg,"chát, ngậm ngùi.","chái, ngàn ngai.",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/253/44.jpg,"Và hôm nay, chúng ta cũng cần hỏi câu hỏi này với chính mình.","và hàm trong, . Chung trương cần hải cầu họ đó này với chi núi xuân ha",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/254/1.jpg,KHÁI QUÁT VỀ BIỂN ĐẢO VIỆT NAM,KHÁI QUẤT VỀ BIỂN ĐẢO VIỆT NAM,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/254/2.jpg,Nước ta giáp với biển Đông ở hai phía Đông và Nam. Vùng biển Việt Nam,"Nước ta giấp với biển đông 5 hai phúc Đông và Nam, Vùng biển Việt Nam",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/254/3.jpg,là một phần biển Đông.,là mời phần biển đông,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/254/4.jpg,"Bờ biển dài 3.260 km, từ Quảng Ninh đến Kiên Giang. Như vậy cứ 100 km2","Bộ biến dài 8 160 hơn, Hì Quảng Ninh đến Kiên Giang, Như vậy át (po kh",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/254/5.jpg,thì có 1 km bờ biển (trung bình của thế giới là 600 km2 đất liền / 1 km bờ biển).,thì có yên bì biển (trung hình của thế giới là 600 km? đất liên/ theo bờ biển).,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/254/6.jpg,"Biển có vùng nội thủy, lãnh hải, vùng đặc quyền kinh tế và thềm lục địa với","Biểu có vùng mội thủy, hành thú, vùng thộ quyền hình đế và thân Lucota vì",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/254/7.jpg,diện tích trên 1 triệu km2 (gấp 3 diện tích đất liền : 1 triệu km2 /,trần chích trên 1 triệu được lại (gấp 8 dùng tính đất lần - ftriểu Luật),False
+UIT_HWDB_line/UIT_HWDB_line/test_data/254/8.jpg,330.000 km2),"370,000km:)",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/254/9.jpg,"Trong đó có 2 quần đảo Hoàng Sa, Trường Sa và 2.577 đảo lớn, nhỏ,","Trong đó có cá quân đảo Hàng Sa, Trường Sa và 2.677 Hải lớn, nhỏ,",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/254/10.jpg,"gần và xa bờ, hợp thành phòng tuyến bảo vệ, kiểm soát và làm chủ","gần và xa bờ, hóp thành, phòng tuyến báo vộ, kiến cuất và kim chú",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/254/11.jpg,vùng biển.,Này biển,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/254/12.jpg,"Có vị trí chiến lược quan trọng : nối liền Thái Bình Dương với Ấn Độ Dương,","Có vì thí chiến lĩch quan trong, mốt lần Thủ Bình Dương với An Đó Dương,",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/254/13.jpg,"châu Á với châu Âu, châu Úc với Trung Đông. Giao lưu quốc tế thuận","nhâu Á với châu Au, chào Úc với Truy Đông, Giao tàu giác tế thuch",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/254/14.jpg,"lợi, phát triển ngành biển.","lội, phát triển ngành biểm",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/254/15.jpg,Có khí hậu biển là vùng nhiệt đới tạo điều kiện cho sinh vật biển phát,Có khí hàu biển là vùng nhiệt đổi tạo điều kiển cho anh và biển phát,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/254/16.jpg,"triển, tồn tại tốt.","triển, tào tại nhi",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/254/17.jpg,"Có tài nguyên sinh vật và khoáng sản phong phú, đa dạng, quý hiếm.","Có tài nguyên sinh việt và khoảng cảm phong phú, đa dong, giý hiến",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/254/18.jpg,"Vùng biển và hải đảo nước ta có vị trí chiến lược hết sức to lớn, có ảnh hưởng","Vùng biển và hải nhóa nước ta có vị chỉ chiến lược hết sức 4 lớn, có anh hướng",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/254/19.jpg,trực tiếp đến sự nghiệp bảo vệ nền độc lập dân tộc và xây dựng chủ nghĩa,chiệc tiếp chiến có nghiệp háo vệ nước khi lập dân tác và nộng dùng chủ nghĩa,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/254/20.jpg,"xã hội, có liên quan trực tiếp đến sự phồn vinh của đất nước, đến văn","xã hởi, có kên quan tiếc tiếp đến sự phần vinh của đất nđáo, đấy và",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/254/21.jpg,minh và hạnh phúc của nhân dân.,minh và hoa phúc của nhân dân.,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/255/1.jpg,BẢN CHẤT CỦA THÀNH CÔNG,BẢN CHẤT CỦA THANH CÔNG,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/255/2.jpg,Đã bao giờ bạn tự hỏi thành công là gì mà bao kẻ bỏ cả cuộc đời mình theo đuổi? Phải chăng,để bao giả bạn từ hồi thành công là ngỹ mà bao hỏ tà có các đó ninh thực đời ? Phải chúng,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/255/3.jpg,"đó là kết quả hoàn hảo trong công việc, sự chính xác đến từng chi tiết? Hay đó là cách nói","để là kết quả huân hoài trong công việc, sự chunlo sec đến từng chi tất ? thay đó là cach nơn",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/255/4.jpg,"khác của từ thành đạt, nghĩa là có được một cuộc sống giàu sang, được mọi người nể phục?","khác của tế thành chức, nghĩa là có đưa cuộc sông quân sang, đức mạ, ngàn và phương 9",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/255/5.jpg,Vậy thì bạn hãy dành chút thời gian để lặng mình suy ngẫm.,Vậy thì ban hày chính chuế thì gian đề bằng minh suy ngầm,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/255/6.jpg,Cuộc sống sẽ chỉ cho bạn có những người thành đạt được thành công theo một cách giản dị đến bất,Giao này số chỉ cho họn có những người thành địch chực thành ông theo một của giản hiện bị,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/255/7.jpg,ngờ,gỗ,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/255/8.jpg,"Thành công là khi bố và con trai có dũng khí bước vào bếp, nấu những món ăn mẹ thích nhân","Thành công là khu bố và con trai có chúng khí bước vào bếp, nấu những nơn cầu ma. thích nhào",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/255/9.jpg,"ngày 8 - 3. Món canh có thể hơi mặn, món cá sốt đáng lẽ phải có màu đỏ sậm thì lại ngả sang","ngày 2 ? 5, Nam canh có thể khi mán, màn có vất đảng lê phái có mào để của đã hai ngĩ sang",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/255/10.jpg,"màu... đen cháy. Nhưng nhìn mâm cơm, mẹ vẫn cười. Bởi vì hai bố con không thể thành","năm đam những Nhưng nhà màn cho, mạ vẫn của bởi và trai bố cao không thì thành",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/255/11.jpg,"công trên "" chiến trường "" bếp núc, nhưng lại thành công khi tặng mẹ "" đoá hồng "" của tình yêu.","ông trên "" chúc trắng "" biện mái, những lại thành công khi tây ra "" đầu ông "" của tình giờ",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/255/12.jpg,"Một món quà ý nghĩa hơn cả những món quà quý giá, hạnh phúc ấy long lanh in trong mắt","một núi giào ý nghĩa khi và chủng sản già ngà ngài, hạnh phác ủy tay lanh a toyan có",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/255/13.jpg,mẹ.,me,False
+UIT_HWDB_line/UIT_HWDB_line/test_data/255/14.jpg,"Thành công còn là hình ảnh một cậu bé bị dị tật ở chân, không bao giờ đi lại bình thường","Thành công cần là hình một câu bác bị chỉ việt ở châu, không bao giờ chỉ hại hình thường",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/255/15.jpg,"được. Từ nhỏ cậu đã nuôi ước mơ trở thành cầu thủ bóng đá. Sau bao nỗ lực khổ luyện, cậu","được. Trở do cuộc đổi môn cức mở trở thành mẫu thu bóng đó Sau lam có lưa khố huyện, câu",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/255/16.jpg,"bé trở thành cầu thủ dự bị trong một đội bóng nhỏ, và chưa bao giờ được chính thức ra sân.","bà trở thanh nâu thời chữ bị trong nột đội hong nhỏ, mô chúa bao gọi đức chính thức ra sân",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/255/17.jpg,"Nhưng đó không phải là thất bại. Trái lại, thành công đã nở hoa khi cậu bé năm xưa, với bao","Nhưng như không phải là thất bai Trai hại, thành công để nữ hơn khi cậu kí năm của, với bao",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/255/18.jpg,"nghị lực và quyết tâm, đã chiến thắng hoàn cảnh để theo đuổi ước mơ từ ngày thơ bé.","nghị là và quyết tâm, đổi chiến thắng hàm cảnh đã theo đài các nữ từ ngày thứ bá",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/255/19.jpg,"Thành công ấy, liệu có mấy người đạt được?","Thành công ây, hiệu có mấy ngăn dạt được....",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/255/20.jpg,"Sau mỗi mùa thi đại học, có bao "" sĩ tử "" buồn rầu khi biết mình trở thành "" sĩ tử "". Hai bảy điểm,","Sau nổi muốn thị đại lược, có bao ở thể "" buôn nếu khi bắt minh trở thanh "" thờ "" Hai bay đầm.",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/255/21.jpg,cao thật đấy. Nhưng cao mà làm gì khi NV1 lấy tới hai bảy phẩy năm? Đó thật ra không phải,"con thiệt đầy, Nhưng cao mô bản gĩ khi no2 bấy tới hai bày phòng năm đói thật sa không phái",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/255/22.jpg,"là thất bại, chỉ là khi thành công - bị - trì - hoãn mà thôi. Cuộc sống vẫn chào đón họ với","là thuất bại, chủ là khi thanh công bị - tô - hoán mã thời. Quản công nấn choa dam ho nhi",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/255/23.jpg,"NV2, NV3. Quan trọng là họ đã nỗ lực hết sức để khẳng định mình. Đó là ý nghĩa vẹn nguyên","NW2, NV5. Quan trong kì họ đã nó liệu lất nức đã không tính mình đó là ý nghĩa vao nguyên",False
+UIT_HWDB_line/UIT_HWDB_line/test_data/255/24.jpg,"của các kỳ thi, và cũng là bản chất của thành công.","của các bỹ thu, và cùng là bải chất của thành công",False
