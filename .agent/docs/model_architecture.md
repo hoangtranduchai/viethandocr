@@ -20,7 +20,7 @@ The project leverages the **VietOCR** repository's sequence-to-sequence implemen
 
 ## 4. MLOps & Experiment Tracking
 - **Weights & Biases (W&B)**: Used exclusively for tracking hyperparameter configurations, loss curves, and system metrics during the training loop.
-- **OOF Predictions**: The training script automatically generates and saves Out-of-Fold (OOF) predictions on the validation set for future stacking and meta-ensembling strategies.
+- **Holdout Predictions**: The training script automatically generates and saves Holdout Validation predictions on the validation set for future stacking and meta-ensembling strategies.
 - **ONNX Export**: Post-training, the model weights are exported to the ONNX format to slash inference latency and prepare for potential TensorRT / INT8 quantization.
 
 

@@ -1,6 +1,6 @@
 # Enhancing Vietnamese Handwriting Recognition through Hybrid Image Processing and Transformer-based Architectures
 
-**Abstract**— Handwritten text recognition (HTR) for the Vietnamese language presents unique challenges due to complex diacritics, tonal marks, and cursive variations. While deep learning architectures have achieved state-of-the-art results on printed text, unconstrained handwriting often suffers from uneven illumination, background noise, and severe skew. In this paper, we propose a hybrid pipeline that integrates traditional Digital Image Processing (DIP) techniques with a modern Transformer-based sequence-to-sequence architecture. Specifically, we apply Contrast Limited Adaptive Histogram Equalization (CLAHE), Adaptive Thresholding, and Skew Correction to isolate ink strokes, followed by Horizontal Projection Profiles for computationally efficient paragraph segmentation. The preprocessed images are then fed into a fine-tuned VietOCR model featuring a ResNet50 backbone and a Transformer decoder. Evaluated on the UIT-HWDB dataset, we ensure zero data leakage by keeping the predefined test set exactly as is and applying a strict writer-independent split (90% Train / 10% Validation) exclusively on the training data. Furthermore, we adopt rigorous MLOps practices, including Weights & Biases (W&B) tracking, Out-of-Fold (OOF) prediction saving, and ONNX exporting for accelerated inference. Our approach improves Character Error Rate (CER), Word Error Rate (WER), Exact Match, and BLEU scores, highlighting the continuing relevance of foundational image processing heuristics integrated with modern deep learning deployment standards.
+**Abstract**— Handwritten text recognition (HTR) for the Vietnamese language presents unique challenges due to complex diacritics, tonal marks, and cursive variations. While deep learning architectures have achieved state-of-the-art results on printed text, unconstrained handwriting often suffers from uneven illumination, background noise, and severe skew. In this paper, we propose a hybrid pipeline that integrates traditional Digital Image Processing (DIP) techniques with a modern Transformer-based sequence-to-sequence architecture. Specifically, we apply Contrast Limited Adaptive Histogram Equalization (CLAHE), Adaptive Thresholding, and Skew Correction to isolate ink strokes, followed by Horizontal Projection Profiles for computationally efficient paragraph segmentation. The preprocessed images are then fed into a fine-tuned VietOCR model featuring a ResNet50 backbone and a Transformer decoder. Evaluated on the UIT-HWDB dataset, we ensure zero data leakage by keeping the predefined test set exactly as is and applying a strict writer-independent split (90% Train / 10% Validation) exclusively on the training data. Furthermore, we adopt rigorous MLOps practices, including Weights & Biases (W&B) tracking, Holdout Validation prediction saving, and ONNX exporting for accelerated inference. Our approach improves Character Error Rate (CER), Word Error Rate (WER), Exact Match, and BLEU scores, highlighting the continuing relevance of foundational image processing heuristics integrated with modern deep learning deployment standards.
 
 **Index Terms**— Vietnamese Handwriting Recognition, Digital Image Processing, VietOCR, Transformers, ResNet50, MLOps, ONNX.
 
@@ -17,7 +17,7 @@ Instead of relying solely on deep learning to resolve these variations, this pap
 The contributions of this paper are threefold:
 1. We design a computationally efficient, DIP-driven preprocessing pipeline tailored for Vietnamese handwriting.
 2. We demonstrate the efficacy of a ResNet50 + Transformer architecture (fine-tuned via VietOCR) on the UIT-HWDB dataset, utilizing a strict writer-independent data split to prevent model memorization.
-3. We establish a robust MLOps framework (W&B, OOF saving, ONNX) to ensure reproducibility, facilitate meta-ensembling, and optimize inference speeds.
+3. We establish a robust MLOps framework (W&B, Holdout Validation saving, ONNX) to ensure reproducibility, facilitate meta-ensembling, and optimize inference speeds.
 
 ## II. RELATED WORK
 
@@ -52,7 +52,7 @@ We optimize training time by loading pre-trained `resnet_transformer` weights fr
 ### D. MLOps & Advanced Deployment
 To elevate the project to production and competitive standards, we integrate strict MLOps principles:
 - **Experiment Tracking**: We utilize Weights & Biases (W&B) to log loss curves and hyperparameters.
-- **Ensemble Preparedness**: The pipeline automatically saves Out-of-Fold (OOF) predictions during the validation phase, enabling future multi-model Stacking without data leakage.
+- **Ensemble Preparedness**: The pipeline automatically saves Holdout Validation predictions during the validation phase, enabling future multi-model Stacking without data leakage.
 - **ONNX Exporting**: The final PyTorch weights are exported to the ONNX format. This decoupling allows for hardware-specific optimizations (such as TensorRT or INT8 quantization) to dramatically reduce inference latency.
 
 ## IV. EXPERIMENTS AND SETUP
@@ -73,7 +73,7 @@ Preliminary EDA confirms that the DIP pipeline successfully binarizes the text, 
 Error analysis reveals that the model's primary failure modes involve heavily cursive, overlapping lines where the Horizontal Projection Profile fails to find a clean valley, leading to vertically truncated diacritics.
 
 ## VI. CONCLUSION
-This paper outlines a highly optimized, reproducible pipeline for Vietnamese HTR. By bridging the gap between classical Digital Image Processing and modern Transformer networks, and reinforcing the pipeline with robust MLOps standards (W&B tracking, OOF ensembling, ONNX inference), we achieve a balance of high accuracy and computational efficiency. Future work will investigate non-linear deskewing techniques for heavily warped paper and the integration of language models to correct OCR outputs.
+This paper outlines a highly optimized, reproducible pipeline for Vietnamese HTR. By bridging the gap between classical Digital Image Processing and modern Transformer networks, and reinforcing the pipeline with robust MLOps standards (W&B tracking, Holdout Validation ensembling, ONNX inference), we achieve a balance of high accuracy and computational efficiency. Future work will investigate non-linear deskewing techniques for heavily warped paper and the integration of language models to correct OCR outputs.
 
 ## REFERENCES
 [1] Q. B. Pham, "VietOCR: A pipeline for Vietnamese text recognition," GitHub Repository, 2021.  

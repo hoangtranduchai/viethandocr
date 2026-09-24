@@ -24,7 +24,7 @@ Before deep feature extraction, images are standardized using foundational techn
 ### 4. MLOps & Advanced Evaluation
 Built to Kaggle Grandmaster standards:
 - **Experiment Tracking**: Integrated with **Weights & Biases (W&B)** to log all hyperparameter tweaks and loss curves.
-- **Stacking Preparedness**: Automatically saves **Out-of-Fold (OOF)** predictions on validation sets for future meta-ensembling.
+- **Stacking Preparedness**: Automatically saves **Holdout Validation** predictions on validation sets for future meta-ensembling.
 - **Inference Optimization**: Includes **ONNX** exporting capabilities to drastically slash inference latency and allow for potential TensorRT / INT8 quantization.
 - **Metrics**: Evaluated strictly using Character Error Rate (CER), Word Error Rate (WER), Exact Match Accuracy, and BLEU scores.
 
