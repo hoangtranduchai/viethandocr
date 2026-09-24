@@ -21,13 +21,13 @@ This project relies on a Kaggle Notebook environment rather than local CLI scrip
   5. Run `05_Evaluation_and_Inference.ipynb` (Evaluation and ONNX export)
 
 ## 4. Core Logic Summary
-The pipeline strictly enforces a **Writer-Independent split** on training data to prevent leakage. Raw images then pass through a deterministic **DIP Pipeline** (illumination correction, binarization, skew correction, and horizontal projection profiles) to normalize the input manifold. These standardized images are fed into a fine-tuned **ResNet50 + Transformer** architecture (via VietOCR). The final outputs, alongside rigorous evaluation metrics, are documented in an **IEEE Paper generation** process.
+The pipeline strictly enforces a **Writer-Independent split** on training data to prevent leakage. Raw images then pass through a deterministic **DIP Pipeline** (illumination correction, binarization, skew correction, and horizontal projection profiles) to normalize the input manifold. These standardized images are fed into a fine-tuned **VGG19 + Transformer** architecture (via VietOCR). The final outputs, alongside rigorous evaluation metrics, are documented in an **IEEE Paper generation** process.
 
 ## 5. Key Constraints
 - Do not modify the original UIT-HWDB zip files directly.
 - Keep the predefined `test_data` set exactly as is for evaluation; only apply the 90/10 Writer-Independent split to the `train_data`.
 - Writer-Independent splitting is mandatory; do not use random splitting.
-- Do not change the core ResNet50+Transformer architecture without explicit approval.
+- Do not change the core VGG19+Transformer architecture without explicit approval.
 - Paragraph segmentation must use traditional DIP (Projection Profiles), not deep learning.
 - Code must adhere to Kaggle resource limits (Dual T4, memory management via `gc.collect()`).
 - **Branch Management**: Before adding any features or fixing bugs, always work on a new git branch. Never commit directly on main. Bug branches must follow naming convention `bug/[desc]`, feature branches follow naming convention `feature/[desc]`
