@@ -5,7 +5,7 @@ This document outlines the core deep learning architecture and MLOps strategies 
 ## 1. Core Architecture (VietOCR)
 The project leverages the **VietOCR** repository's sequence-to-sequence implementation.
 - **Base Architecture**: `vgg_transformer` (VGG19 encoder with Transformer decoder).
-- **Encoder**: A deep **VGG19** backbone replaces standard VGG architectures to improve spatial feature extraction and mitigate vanishing gradients via residual connections.
+- **Encoder**: A VGG19 backbone provides convolutional feature extraction for the visual encoder.
 - **Decoder**: A **Transformer** module replaces legacy RNNs/LSTMs. Multi-head self-attention allows the model to globally context-match base characters and complex stacked diacritics simultaneously, which is critical for tonal languages like Vietnamese.
 
 ## 2. Fine-Tuning Strategy
@@ -28,4 +28,4 @@ The project leverages the **VietOCR** repository's sequence-to-sequence implemen
 Before training begins, a zero-shot baseline is computed using the pre-trained `vgg_transformer` weights. This evaluation is strictly executed on all granular levels (all, word, line, paragraph) of BOTH the `test_data` split (for final reporting) and the `val_data` split (to establish an Epoch 0 anchor). The `train_data` split is excluded from baseline evaluation to save compute.
 
 ## 6. Implementation Location
-Model instantiation, W&B tracking, and the primary training loop are located in `03_VietOCR_Training.ipynb`. ONNX export and inference optimization are handled in `04_Evaluation_and_Inference.ipynb`.
+Model instantiation, W&B tracking, and the primary training loop are located in `04_VietOCR_Training.ipynb`. ONNX export and inference optimization are handled in `05_Evaluation_and_Inference.ipynb`.
