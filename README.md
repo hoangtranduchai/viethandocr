@@ -17,14 +17,14 @@ Before deep feature extraction, images are standardized using foundational techn
 - **Paragraph Segmentation**: Computationally efficient Horizontal Projection Profiles to segment dense paragraphs into single text lines without heavy deep learning overhead.
 
 ### 3. Deep Learning Model (VietOCR)
-- **Architecture**: Employs the `resnet_transformer` architecture from the [VietOCR](https://github.com/pbcquoc/vietocr) repository, leveraging a deep **ResNet50** backbone for spatial feature extraction and a **Transformer** sequence decoder for mapping complex Vietnamese diacritics.
+- **Architecture**: Employs the `vgg_transformer` architecture from the [VietOCR](https://github.com/pbcquoc/vietocr) repository, leveraging a deep **VGG19** backbone for spatial feature extraction and a **Transformer** sequence decoder for mapping complex Vietnamese diacritics.
 - **Fine-Tuning**: Initiated with pre-trained weights to massively accelerate convergence.
 - **Environment**: Optimized for Kaggle Cloud environments utilizing Dual NVIDIA T4 GPUs via Mixed Precision (FP16) training.
 
 ### 4. MLOps & Advanced Evaluation
 Built to Kaggle Grandmaster standards:
 - **Experiment Tracking**: Integrated with **Weights & Biases (W&B)** to log all hyperparameter tweaks and loss curves.
-- **Stacking Preparedness**: Automatically saves **Out-of-Fold (OOF)** predictions on validation sets for future meta-ensembling.
+- **Stacking Preparedness**: Automatically saves **Holdout Validation** predictions on validation sets for future meta-ensembling.
 - **Inference Optimization**: Includes **ONNX** exporting capabilities to drastically slash inference latency and allow for potential TensorRT / INT8 quantization.
 - **Metrics**: Evaluated strictly using Character Error Rate (CER), Word Error Rate (WER), Exact Match Accuracy, and BLEU scores.
 
@@ -37,4 +37,4 @@ The project is decoupled into 5 modular, memory-efficient notebooks:
 - `05_Evaluation_and_Inference.ipynb`: Test set evaluation of fine-tuned model (CER/WER) and ONNX export.
 
 ## 📄 Research Paper
-The culmination of this pipeline is documented in `VietHandOCR_Research_Paper.md`, an IEEE-structured Markdown draft detailing the hybridization of classical computer vision with modern Transformers for tonal languages.
+The culmination of this pipeline is documented in `VietHandOCR_Research_Paper.md`, drafted in standard two-column IEEE format, detailing the hybridization of classical computer vision with modern Transformers for tonal languages.

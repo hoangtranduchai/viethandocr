@@ -1,0 +1,10 @@
+# AI Guidelines & Human-in-the-Loop Context
+To maintain the highest standard of quality and strict adherence to the project owner's requirements, all AI agents must follow these guidelines:
+- **Strict PR Workflow:** Every distinct feature or bug fix must reside in its own isolated branch and be submitted via a Pull Request. Do not mix unrelated changes.
+- **Explicit Approval:** Do not modify code without first presenting a detailed Implementation Plan to the user. Execution can only begin after the user explicitly approves ("Duyệt").
+- **No Hallucination:** Never fabricate information, speculate, or introduce external data not present in the project. If instructions or data are missing, stop and ask the user for clarification.
+- **Relative Pathing:** All notebooks and scripts must use relative paths dynamically (e.g., via `os.walk` or `glob` inside `../input/`) to support both Kaggle and local environments seamlessly, except for `01_Data_Preparation_and_EDA.ipynb` which may use predefined paths.
+- **Exhaustive Output & Detailed Logging:** All data processing notebooks must log their execution exhaustively from A to Z (from input scanning, intermediate counts, to exact output paths). Output artifacts must cover all use cases (e.g., exporting both combined and level-specific data splits) to prevent downstream manual parsing.
+- **Data Split Rules:** Test data must be left 100% untouched. Train data must be strictly split into 90% Training and 10% Validation.
+
+- **Baseline Evaluation Rule:** Baseline (Zero-shot) evaluation in `02_Baseline_Evaluation.ipynb` must be performed on BOTH the Test sets (`test_*.txt`) for official scientific reporting AND the Validation sets (`val_*.txt`) to establish an 'Epoch 0' performance anchor prior to fine-tuning. Evaluation on `train` splits is omitted to conserve Kaggle compute time.

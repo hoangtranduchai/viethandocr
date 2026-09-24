@@ -21,13 +21,13 @@ This project relies on a Kaggle Notebook environment rather than local CLI scrip
   5. Run `05_Evaluation_and_Inference.ipynb` (Evaluation and ONNX export)
 
 ## 4. Core Logic Summary
-The pipeline strictly enforces a **Writer-Independent split** on training data to prevent leakage. Raw images then pass through a deterministic **DIP Pipeline** (illumination correction, binarization, skew correction, and horizontal projection profiles) to normalize the input manifold. These standardized images are fed into a fine-tuned **ResNet50 + Transformer** architecture (via VietOCR). The final outputs, alongside rigorous evaluation metrics, are documented in an **IEEE Paper generation** process.
+The pipeline strictly enforces a **Writer-Independent split** on training data to prevent leakage. Raw images then pass through a deterministic **DIP Pipeline** (illumination correction, binarization, skew correction, and horizontal projection profiles) to normalize the input manifold. These standardized images are fed into a fine-tuned **VGG19 + Transformer** architecture (via VietOCR). The final outputs, alongside rigorous evaluation metrics, are documented in an **IEEE Paper generation** process.
 
 ## 5. Key Constraints
 - Do not modify the original UIT-HWDB zip files directly.
 - Keep the predefined `test_data` set exactly as is for evaluation; only apply the 90/10 Writer-Independent split to the `train_data`.
 - Writer-Independent splitting is mandatory; do not use random splitting.
-- Do not change the core ResNet50+Transformer architecture without explicit approval.
+- Do not change the core VGG19+Transformer architecture without explicit approval.
 - Paragraph segmentation must use traditional DIP (Projection Profiles), not deep learning.
 - Code must adhere to Kaggle resource limits (Dual T4, memory management via `gc.collect()`).
 - **Branch Management**: Before adding any features or fixing bugs, always work on a new git branch. Never commit directly on main. Bug branches must follow naming convention `bug/[desc]`, feature branches follow naming convention `feature/[desc]`
@@ -38,12 +38,4 @@ For deep technical details, refer to the progressive disclosure documentation lo
 - [Preprocessing Pipeline (DIP)](.agent/docs/preprocessing_pipeline.md)
 - [Model Architecture](.agent/docs/model_architecture.md)
 - [Research Paper Structure](.agent/docs/paper_structure.md)
-
-## 7. Project Guidelines & AI Context (Human-in-the-Loop)
-To maintain the highest standard of quality and strict adherence to the project owner's requirements, all AI agents must follow these guidelines:
-- **Strict PR Workflow:** Every distinct feature or bug fix must reside in its own isolated branch and be submitted via a Pull Request. Do not mix unrelated changes.
-- **Explicit Approval:** Do not modify code without first presenting a detailed Implementation Plan to the user. Execution can only begin after the user explicitly approves ("Duyệt").
-- **No Hallucination:** Never fabricate information, speculate, or introduce external data not present in the project. If instructions or data are missing, stop and ask the user for clarification.
-- **Relative Pathing:** All notebooks and scripts must use relative paths dynamically (e.g., via `os.walk` or `glob` inside `../input/`) to support both Kaggle and local environments seamlessly, except for `01_Data_Preparation_and_EDA.ipynb` which may use predefined paths.
-- **Exhaustive Output & Detailed Logging:** All data processing notebooks must log their execution exhaustively from A to Z (from input scanning, intermediate counts, to exact output paths). Output artifacts must cover all use cases (e.g., exporting both combined and level-specific data splits) to prevent downstream manual parsing.
-- **Data Split Rules:** Test data must be left 100% untouched. Train data must be strictly split into 90% Training and 10% Validation.
+- [AI Guidelines & Human-in-the-Loop Context](.agent/docs/ai_guidelines.md)
