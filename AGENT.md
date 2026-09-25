@@ -18,7 +18,7 @@ This project relies on a Kaggle Notebook environment rather than local CLI scrip
   2. Run `02_Baseline_Evaluation.ipynb` (Zero-shot baseline)
   3. Run `03_Digital_Image_Processing.ipynb` (DIP Preprocessing)
   4. Run `04_VietOCR_Training.ipynb` (Training loop with W&B tracking)
-  5. Run `05_Evaluation_and_Inference.ipynb` (Evaluation and ONNX export)
+  5. Run `05_Evaluation_and_Inference.ipynb` (Evaluation and ONNX export of CNN Backbone)
 
 ## 4. Core Logic Summary
 The pipeline strictly enforces a **Writer-Independent split** on training data to prevent leakage. Raw images then pass through a deterministic **DIP Pipeline** (illumination correction, binarization, skew correction, and horizontal projection profiles) to normalize the input manifold. These standardized images are fed into a fine-tuned **VGG19 + Transformer** architecture (via VietOCR). The final outputs, alongside rigorous evaluation metrics, are documented in an **IEEE Paper generation** process.

@@ -29,3 +29,5 @@ The pipeline avoids deep-learning based segmentation (e.g., CRAFT) in favor of c
 
 ## 3. Implementation Location
 The complete pipeline is implemented and executed within `03_Digital_Image_Processing.ipynb`. It includes a unified function that runs the sequence above, and a batch processing loop that reads the raw `.txt` annotations, processes every image, saves the standardized images to a `Processed_Datasets/` directory, and outputs updated annotation files (e.g., `processed_train.txt`) for training.
+
+**Crucial Constraint:** When saving processed images, the output paths *must* preserve the original relative directory structure (e.g., `train/UIT_HWDB_line/...`) rather than using only the file `basename`. This strictly prevents file collisions and dataset corruption across splits.

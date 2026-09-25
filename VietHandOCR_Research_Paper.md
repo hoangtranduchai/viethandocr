@@ -53,7 +53,7 @@ We optimize training time by loading pre-trained `vgg_transformer` weights from 
 To elevate the project to production and competitive standards, we integrate strict MLOps principles:
 - **Experiment Tracking**: We utilize Weights & Biases (W&B) to log loss curves and hyperparameters.
 - **Ensemble Preparedness**: The pipeline automatically saves Holdout Validation predictions during the validation phase, enabling future multi-model Stacking without data leakage.
-- **ONNX Exporting**: The final PyTorch weights are exported to the ONNX format. This decoupling allows for hardware-specific optimizations (such as TensorRT or INT8 quantization) to dramatically reduce inference latency.
+- **ONNX Exporting**: The CNN Backbone (Encoder) weights are exported to the ONNX format. This decoupling allows for hardware-specific optimizations (such as TensorRT or INT8 quantization) of the most computationally expensive component to dramatically reduce inference latency.
 
 ## IV. EXPERIMENTS AND SETUP
 
